@@ -3,41 +3,344 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeamSync</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://js.puter.com/v2/"></script>
+    <script src="script.js"></script>
+
 </head>
 <body>
-    <header class="header">
-        <button class="my-button">Home</button>
-        <button class="my-button">Features</button>
-        <button class="my-button">Ask AI</button>
-        <button class="my-button">About Us</button>
-        <button class="my-button">contact Us</button>
-        <button class="my-button sign">Sign In</button>
-        <button class="my-button">Log In</button>
-    </header>
-    <main>
-        <section class="hero-section">
-            <div class="left-section">
-            <div class="my-h1">
-                <h1>TeamSync</h1>
-            </div>
-            <div class="right-section">
-            <img class="img1" src="logo.jpg">
-            </div>
-            <div class="my-Paragraph1">
-                <p>
-                    At TeamSync, we transform
-                     group project chaos into s
-                     treamlined collaboration. Our mission is to empower 
-                     students to collaborate better, stay organized, and complete group work with confidence.
-                </p>
-                </div>
-            <div class="my-Cta-Btns">
-            <button class="get-Btn">Get Started</button>
-            <button class="learn-Btn">Learn More</button>
-            </div>
-        </section>
-    </main>
+<section id="section-header" class="site-navbar-section">
+  <header class="site-navbar">
+    <div class="container site-navbar-container">
+      <nav class="nav-links">
+        <a href="#section-hero" class="nav-link nav-link-home">Home</a>
+        <a href="#section-features" class="nav-link">Features</a>
+        <a href="#section-ai-assistant" class="nav-link">Ask AI</a>
+        <a href="#section-about" class="nav-link">About Us</a>
+        <a href="#section-contact" class="nav-link">Contact Us</a>
+      </nav>
+      <div class="nav-auth-buttons">
+        <a href="#" class="btn btn-secondary nav-btn-signup">Sign Up</a>
+        <a href="#" class="btn btn-primary nav-btn-login">Log In</a>
+      </div>
+    </div>
+  </header>
+</section>
+<section id="section-hero" class="hero-section">
+  <div class="container hero-container">
+    <div class="hero-content">
+      <h1 class="hero-headline">TeamSync</h1>
+      <p class="hero-subtext">At TeamSync, we transform group project chaos into streamlined collaboration. Our mission is to empower students to collaborate better, stay organized, and complete group work with confidence.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-secondary hero-btn-get-started">Get Started</a>
+        <a href="#section-about" class="btn btn-outline-light hero-btn-learn-more">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-image-container">
+      <img src="images/aa54200cf40362db638f1d0b5b2322b7bc79f3ff.png" alt="TeamSync Logo illustration" class="hero-image">
+    </div>
+  </div>
+</section>
+<section id="section-about" class="about-section">
+  <div class="container about-container">
+    <div class="about-content-left">
+      <div class="about-tagline-wrapper">
+        <p class="about-tagline">About</p>
+      </div>
+      <h2 class="about-heading">Our Journey: Empowering Students Together</h2>
+      <p class="about-text">Founded by students for students, TeamSync emerged from the challenges we faced in managing group projects. TeamSync — a simple tool to help student teams stay aligned, focused, and fair.</p>
+      <a href="#" class="btn btn-primary about-btn-learn">Learn</a>
+    </div>
+    <div class="about-image-container">
+      <img src="images/f990d7ac8a6bddc5cbd44abf5c2140b879929677.png" alt="Students collaborating on a laptop" class="about-image">
+    </div>
+  </div>
+</section>
+<section id="section-features" class="features-section">
+  <div class="container features-container">
+    <div class="features-section-title">
+      <p class="features-tagline">Features</p>
+      <h2 class="features-heading">Explore Our Powerful Productivity Tools</h2>
+      <p class="features-subheading">TeamSync offers innovative tools designed to streamline group projects for university students. Discover how our features can enhance your collaboration and productivity.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-item">
+        <img src="images/2_412.svg" alt="TaskBoard icon" class="feature-icon">
+        <h3 class="feature-item-heading">TaskBoard</h3>
+        <p class="feature-item-text">A visual task dashboard with Kanban-style drag-and-drop functionality.</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/2_416.svg" alt="AutoTracker icon" class="feature-icon">
+        <h3 class="feature-item-heading">AutoTracker</h3>
+        <p class="feature-item-text">Automatically tracks contributions like a simple GitHub.</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/2_420.svg" alt="RoleSetter icon" class="feature-icon">
+        <h3 class="feature-item-heading">RoleSetter</h3>
+        <p class="feature-item-text">Assigns team roles such as leader, editor, and researcher.</p>
+      </div>
+    </div>
+    <div class="features-actions">
+      <a href="#" class="btn btn-outline-light features-btn-learn-more">Learn More</a>
+      <a href="#" class="btn features-btn-swipe">
+        Swipe
+        <img src="images/I2_425_4179_8939.svg" alt="Swipe right icon" class="swipe-icon">
+      </a>
+    </div>
+  </div>
+</section>
+<section id="section-faq" class="faq-section">
+  <div class="container faq-container">
+    <h2 class="faq-heading">Frequently Asked Questions</h2>
+    
+    <div class="faq-item">
+      <h3 class="faq-question">What is TeamSync?</h3>
+      <p class="faq-answer">TeamSync is a platform for seamless group collaboration.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Who can use TeamSync?</h3>
+      <p class="faq-answer">Students and mentors can both use it to coordinate group tasks.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Is TeamSync free?</h3>
+      <p class="faq-answer">Yes, TeamSync is completely free for university teams.</p>
+    </div>
+  </div>
+</section>
+
+<section id="section-testimonials" class="testimonials-section">
+  <div class="container testimonials-container">
+    <div class="testimonials-section-title">
+      <h2 class="testimonials-heading">Customer Testimonials</h2>
+      <p class="testimonials-subheading">Hear from our satisfied users!</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="images/2_434.svg" alt="5 stars rating" class="testimonial-stars">
+        <blockquote class="testimonial-quote">“Before TeamSync, our group was all over the place. Now we’re finally finishing projects on time.”</blockquote>
+        <div class="testimonial-author">
+          <img src="images/10b7cd5311a6d86748b093f381be5706707258a0.png" alt="Peter Mutambo" class="testimonial-avatar">
+          <div class="testimonial-author-info">
+            <p class="testimonial-author-name">Peter Mutambo</p>
+            <p class="testimonial-author-title">Group Leader</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/2_449.svg" alt="5 stars rating" class="testimonial-stars">
+        <blockquote class="testimonial-quote">“The ghostbuster alert saved us from submitting without a key member’s input!”</blockquote>
+        <!--合併圖片-->
+        <div class="testimonial-author merged-avatar-ezra-container">
+          <div class="merged-avatar-ezra">
+             <img src="images/35_173.svg" alt="Avatar background shape" style="position:absolute; left:0; top:0; width: 74px; height: 73.8px;">
+             <img src="images/7f690009529b8eed9da1502f58babbe98226858e.png" alt="Ezra Kareria" style="position:absolute; left: calc( (74px - 47px) / 2); top: calc( (73.8px - 47px) / 2); width: 47px; height: 47px; border-radius:50%;">
+          </div>
+          <div class="testimonial-author-info">
+            <p class="testimonial-author-name">Ezra Kareria</p>
+            <p class="testimonial-author-title">Tech Lead</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section-core-values" class="core-values-section">
+  <div class="container core-values-container">
+    <h2 class="core-values-title">our core values:</h2>
+    <div class="core-values-items">
+      <div class="core-value-item simple-item">Simple</div>
+      <div class="core-value-item efficient-item">Efficient</div>
+      <div class="core-value-item empowering-item">Empowering</div>
+    </div>
+  </div>
+</section>
+<section id="section-team" class="team-section">
+  <div class="container team-container">
+    <div class="team-section-title">
+      <h2 class="team-heading">Our Team</h2>
+      <p class="team-subheading">Meet the passionate minds behind TeamSync.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <!--合併圖片-->
+        <div class="team-avatar-merged-container">
+            <img src="images/2_483.svg" alt="Placeholder avatar icon" class="team-avatar-placeholder" style="position:absolute; left:0; top:0; width:80px; height:80px;">
+            <img src="images/87b7a365eeedff3ec2adf24896b7f197b6d56f69.png" alt="Martin Gachuhi" class="team-avatar" style="position:absolute; left:0; top:0; width:114px; height:108px; border-radius:50%; object-fit:cover;">
+        </div>
+        <h3 class="team-member-name">Martin Gachuhi</h3>
+        <p class="team-member-title">Project Manager</p>
+        <p class="team-member-bio">Dedicated to ensuring every project runs smoothly and efficiently.</p>
+        <div class="team-social-icons">
+          <a href="#"><img src="images/2_490.svg" alt="LinkedIn"></a>
+          <a href="#"><img src="images/2_491.svg" alt="X"></a>
+          <a href="#"><img src="images/2_492.svg" alt="Dribble"></a>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="images/db2a1793317a9387baba62b0a7cde8657b7eb26b.png" alt="John Mwangi" class="team-avatar">
+        <h3 class="team-member-name">John Mwangi</h3>
+        <p class="team-member-title">Software Developer</p>
+        <p class="team-member-bio">Crafting innovative solutions to enhance user experience and functionality.</p>
+        <div class="team-social-icons">
+          <a href="#"><img src="images/2_501.svg" alt="LinkedIn"></a>
+          <a href="#"><img src="images/2_502.svg" alt="X"></a>
+          <a href="#"><img src="images/2_503.svg" alt="Dribble"></a>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="images/c7728bc5c5d3bce73efc5be60c5ed42e3eb999bb.png" alt="Lewis Kamau" class="team-avatar">
+        <h3 class="team-member-name">Lewis Kamau</h3>
+        <p class="team-member-title">UX Designer</p>
+        <p class="team-member-bio">Focusing on intuitive designs that resonate with our users.</p>
+        <div class="team-social-icons">
+          <a href="#"><img src="images/2_512.svg" alt="LinkedIn"></a>
+          <a href="#"><img src="images/2_513.svg" alt="X"></a>
+          <a href="#"><img src="images/2_514.svg" alt="Dribble"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="section-ai-assistant" class="ai-assistant-section">
+  <div class="container ai-assistant-container">
+    <h2 class="ai-assistant-main-title">AI Assistant: Your Smart Companion for Seamless Collaboration</h2>
+    <div class="ai-chat-interface">
+      <div class="ai-chat-background"></div>
+      <div class="ai-chat-label">Ask AI:</div>
+      <div class="ai-chat-messages"></div>
+      <div class="ai-chat-input-area">
+        <div class="ai-chat-input-placeholder" data-placeholder="Write your message here"></div>
+        <button class="ai-chat-send-button" aria-label="Send message">
+          <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(90deg);">
+            <path d="M0.39917 0.703166L24.3992 10.7032L0.39917 20.7032L0.39917 0.703166Z" fill="white"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="sample-questions">
+      <p style="color:#ffffff; width:100%;">Try asking:</p>
+      <button class="sample-btn">Who founded TeamSync?</button>
+      <button class="sample-btn">What does TeamSync solve?</button>
+      <button class="sample-btn">What services do you offer?</button>
+      <button class="sample-btn">How can I contact the team?</button>
+      <button class="sample-btn">What is your long-term vision?</button>
+    </div>
+  </div>
+</section>
+
+
+<section id="section-contact" class="contact-section">
+  <div class="container contact-container">
+    <div class="contact-info-column">
+      <p class="contact-tagline">Contact</p>
+      <h2 class="contact-heading">Get in Touch</h2>
+      <p class="contact-subheading">We'd love to hear from you!</p>
+      <ul class="contact-details-list">
+        <li><img src="/images/2_596.svg" alt="Email icon"> info@teamsync.com</li>
+        <li><img src="/images/2_599.svg" alt="Phone icon"> +1 (555) 123-4567</li>
+        <li><img src="/images/2_602.svg" alt="Location icon"> 456 College Ave, Campus City, CA 90001</li>
+      </ul>
+    </div>
+    <form class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name">
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last-name">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="topic">Choose a Topic</label>
+        <select id="topic" name="topic">
+          <option value="">Select One...</option>
+          <option value="support">Support</option>
+          <option value="feedback">Feedback</option>
+          <option value="partnership">Partnership</option>
+        </select>
+      </div>
+      <fieldset class="form-group">
+        <legend>Which best describes you?</legend>
+        <div class="radio-group-row">
+          <div class="radio-option"><input type="radio" id="student-leader" name="user-type" value="student-leader"><label for="student-leader">Student Leader</label></div>
+          <div class="radio-option"><input type="radio" id="tech-enthusiast" name="user-type" value="tech-enthusiast"><label for="tech-enthusiast">Tech Enthusiast</label></div>
+        </div>
+        <div class="radio-group-row">
+          <div class="radio-option"><input type="radio" id="project-manager" name="user-type" value="project-manager"><label for="project-manager">Project Manager</label></div>
+          <div class="radio-option"><input type="radio" id="faculty-member" name="user-type" value="faculty-member"><label for="faculty-member">Faculty Member</label></div>
+        </div>
+         <div class="radio-group-row">
+          <div class="radio-option"><input type="radio" id="other-inquiry" name="user-type" value="other-inquiry"><label for="other-inquiry">Other Inquiry</label></div>
+          <div class="radio-option"><input type="radio" id="other" name="user-type" value="other"><label for="other">Other</label></div>
+        </div>
+      </fieldset>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Type your message..."></textarea>
+      </div>
+      <!--<div class="form-group checkbox-group">
+        <input type="checkbox" id="accept-terms" name="accept-terms">
+        <label for="accept-terms">I accept Terms</label>
+      </div>-->
+      <div class="form-group checkbox-group">
+  <label class="custom-checkbox">
+    <input type="checkbox" id="accept-terms" name="accept-terms">
+    <span class="checkmark"></span>
+    I accept Terms
+  </label>
+</div>
+
+      <button type="submit" class="btn btn-secondary form-submit-button">Submit</button>
+    </form>
+  </div>
+</section>
+<footer id="section-footer" class="site-footer">
+  <div class="container footer-container">
+    <div class="footer-top-content">
+      <div class="footer-links-column">
+        <!-- Node 2:642 is empty, so this column is just for links -->
+        <nav class="footer-nav-links">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#section-contact">Contact Us</a>
+        </nav>
+      </div>
+      <div class="footer-subscribe-column">
+        <h3 class="subscribe-heading">Subscribe</h3>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email" class="subscribe-input">
+          <button type="submit" class="btn btn-secondary subscribe-button">Subscribe</button>
+        </form>
+        <p class="subscribe-disclaimer">By subscribing you agree to our Privacy Policy</p>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-bottom-content">
+      <nav class="footer-legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookies Settings</a>
+      </nav>
+      <p class="footer-copyright">&copy; 2025 TeamSync. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 </body>
+
 </html>
