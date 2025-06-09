@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height:70px;
+    margin-top:1px;
+    margin-left:3px;
+    margin-right:3px;
+    align-items: center;
+    height:fixed;
+
+}
+
+.my-button{
+    color:white;
+    background-color:rgb(43, 108, 176);
+    border:none;
+    border-style:solid;
+    width: 120px;
+    height:36px;
+    border-radius:6px;
+    font-size:16px;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.4);
+    border: 1px solid rgb(43, 108, 176);
+    border-width:0.5px;
+    transition: background-color 1s,color 1s;
+
+}
+.my-button:hover{
+    color:rgb(43, 108, 176);
+    background-color:white;
+}
+.sign{
+    color:rgb(43, 108, 176);
+    background-color:white;
+    border:none;
+    border-style:solid;
+    width: 100px;
+    height:35px;
+    border-radius:6px;
+    border-width:1px;
+    transition: background-color 1s,color 1s;
+}
+.sign:hover{
+    color:white;
+    background-color:rgb(43, 108, 176);
+}
+.hero-section{
+    background-color:rgb(43, 108, 176);
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    
+}
+.my-h1{
+    color:white;
+    font-size:96px;
+    padding-top:110px;
+    margin-left:20px;
+
+}
+.my-Paragraph1{
+    color:white;
+    max-width:500px;
+    font-size:32px;
+    padding-left:60px;
+    margin-bottom:20px;
+}
+.get-Btn{
+background-color:white;
+border:none;
+color:rgb(43, 108, 176);
+height: 40px;
+width:90px;
+
+}
+.learn-Btn{
+    background-color:rgb(43, 108, 176);
+    color:white;
+    border-color:white;
+    border-width:7px;
+    border-style:solid;
+    height:50px;
+    width:100px;
+
+}
+.my-Cta-Btns{
+    margin-left:60px;
+}
+
+
+ .img1 {
+  width: 300px;
+  height: 160px;
+  margin-top: 100px;    
+  margin-right: 5px;
+  margin-left:auto;
+  float: right;
+}
+
+
+
+.left-section{
+    flex:1;
+}
+.right-section{
+    flex:2;
+}
+
